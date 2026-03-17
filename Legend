@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Coding Portal</title>
+    <style>
+        /* Modern Design Styling */
+        body {
+            background-color: #f8fafd;
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .main-card {
+            width: 85%;
+            max-width: 900px;
+            text-align: center;
+        }
+
+        .headline {
+            font-size: 36px;
+            color: #1f1f1f;
+            margin-bottom: 30px;
+            font-weight: 500;
+        }
+
+        /* Input Area Box */
+        .chat-box {
+            background: #ffffff;
+            border-radius: 28px;
+            padding: 30px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+            border: 1px solid #e0e0e0;
+            text-align: left;
+            margin-bottom: 25px;
+            position: relative;
+        }
+
+        .prompt-text {
+            color: #444746;
+            font-size: 17px;
+            line-height: 1.6;
+            margin: 0;
+        }
+
+        /* Bottom Buttons Row */
+        .action-row {
+            display: flex;
+            justify-content: center;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+
+        .chip {
+            background: white;
+            border: 1px solid #c4c7c5;
+            padding: 10px 20px;
+            border-radius: 25px;
+            font-size: 14px;
+            color: #444746;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .chip:hover {
+            background-color: #f1f3f4;
+            border-color: #747775;
+        }
+
+        .icon {
+            font-size: 16px;
+        }
+
+        /* Branding Color */
+        .highlight {
+            color: #1a73e8;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="main-card">
+        <h1 class="headline">Where should we start?</h1>
+
+        <div class="chat-box">
+            <p class="prompt-text">
+                Double-check script placement<br>
+                Double-check no imports/build syntax exists<br><br>
+                <span class="highlight">Now generate the COMPLETE index.html.</span>
+            </p>
+        </div>
+
+        <div class="action-row">
+            <div class="chip" onclick="alert('Image Generation...')"><span class="icon">✨</span> Create image</div>
+            <div class="chip" onclick="alert('Video Mode...')"><span class="icon">🎥</span> Create a video</div>
+            <div class="chip" onclick="alert('Editor Open...')"><span class="icon">✍️</span> Write anything</div>
+            <div class="chip" onclick="alert('Learning Center...')"><span class="icon">💡</span> Help me learn</div>
+            <div class="chip" onclick="alert('Boosting...')"><span class="icon">🚀</span> Boost my day</div>
+        </div>
+    </div>
+
+</body>
+</html>
